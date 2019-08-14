@@ -46,8 +46,8 @@ def parse_text(text):
 def run():
     xss_train_data, xss_train_label = data_loader(XSS_TRAIN_FILE, 'xss')
     xss_test_data, xss_test_label = data_loader(XSS_TEST_FILE, 'xss')
-    xss2_train_data, xss2_train_label = data_loader(XSS_TRAIN_FILE, 'xss')
-    xss2_test_data, xss2_test_label = data_loader(XSS_TEST_FILE, 'xss')
+    xss2_train_data, xss2_train_label = data_loader(XSS2_TRAIN_FILE, 'xss')
+    xss2_test_data, xss2_test_label = data_loader(XSS2_TEST_FILE, 'xss')
     normal_train_data, normal_train_label = data_loader(NORMAL_TRAIN_FILE, 'normal')
     normal_test_data, normal_test_label = data_loader(NORMAL_TEST_FILE, 'normal')
 
